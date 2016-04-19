@@ -1,0 +1,26 @@
+{
+  "name": "behat/tokens-extension",
+  "type": "behat-extension",
+  "description": "Tokens extension for Behat that allows saving temporary values from steps and replaces tokens in step arguments with those values",
+  "keywords": ["token", "variables"],
+  "homepage": "https://github.com/asgorobets/tokens-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexei Gorobet",
+      "email": "asgorobets@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "behat/behat": ">=3.0.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Behat\\TokensExtension\\": "src/"
+    }
+  }
+}
