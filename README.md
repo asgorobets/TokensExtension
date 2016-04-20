@@ -30,6 +30,9 @@ default:
     Behat\TokensExtension: ~
 ```
 
+## Documentation
+Please refer to docs [here](docs/index.md)
+
 ## Testing
 
 ```shell
