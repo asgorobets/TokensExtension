@@ -36,6 +36,6 @@ class RawTokensContext implements TokensContextInterface
      */
     public function replaceStepTokens($value)
     {
-        return isset($this->tokens[$value]) ? $this->tokens[$value] : FALSE;
+        return isset($this->tokens[$value]) ? $this->tokens[$value] : false;
     }
 }

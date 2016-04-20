@@ -81,7 +81,8 @@ final class RepositoryStepTokensReplacer implements StepTokensReplacer
      *   Processed step text with replaced tokens.
      * @throws null
      */
-    protected function replaceTokensText($value, $tokens_replacements, StepNode $step, Environment $environment) {
+    protected function replaceTokensText($value, $tokens_replacements, StepNode $step, Environment $environment)
+    {
         $newValue = $value;
         foreach ($tokens_replacements as $tokens_replacement) {
             if ($this->isApplicableTokensReplacement($value, $tokens_replacement, $matches)) {
