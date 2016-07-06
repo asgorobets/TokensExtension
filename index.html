@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Behat TokensExtension by asgorobets</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Behat TokensExtension</h1>
+      <h2 class="project-tagline">Behat TokensExtension provides a way for step text and arguments to contain replacement tokens that will be replaced with some context values before step definitions are processed</h2>
+      <a href="https://github.com/asgorobets/TokensExtension" class="btn">View on GitHub</a>
+      <a href="https://github.com/asgorobets/TokensExtension/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/asgorobets/TokensExtension/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="behat-tokensextension" class="anchor" href="#behat-tokensextension" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Behat TokensExtension</h1>
+
+<p>Behat TokensExtension provides a way for step text and arguments to contain replacement tokens that will be replaced with some context values before step definitions are processed</p>
+
+<p><a href="https://packagist.org/packages/behat/tokens-extension"><img src="https://poser.pugx.org/behat/tokens-extension/v/stable" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/behat/tokens-extension"><img src="https://poser.pugx.org/behat/tokens-extension/license" alt="License"></a>
+<a href="https://travis-ci.org/asgorobets/TokensExtension"><img src="https://img.shields.io/travis/asgorobets/TokensExtension/master.svg?style=flat" alt="Build Status"></a>
+<a href="https://scrutinizer-ci.com/g/asgorobets/TokensExtension"><img src="https://img.shields.io/scrutinizer/g/asgorobets/TokensExtension.svg?style=flat" alt="Quality Score"></a>
+<a href="https://packagist.org/packages/behat/tokens-extension"><img src="https://poser.pugx.org/behat/tokens-extension/downloads" alt="Total Downloads"></a></p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
+
+<ul>
+<li><code>curl -sS https://getcomposer.org/installer | php</code></li>
+<li><code>vim composer.json</code></li>
+</ul>
+
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-s"><span class="pl-pds">"</span>require<span class="pl-pds">"</span></span>: {
+    <span class="pl-s"><span class="pl-pds">"</span>behat/tokens-extension<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>dev-master<span class="pl-pds">"</span></span>
+  },
+  <span class="pl-s"><span class="pl-pds">"</span>config<span class="pl-pds">"</span></span>: {
+    <span class="pl-s"><span class="pl-pds">"</span>bin-dir<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>bin<span class="pl-pds">"</span></span>
+  }
+}</pre></div>
+
+<ul>
+<li><code>composer install</code></li>
+<li>Enable <code>TokensExtension</code> in behat.yml:</li>
+</ul>
+
+<pre><code>default:
+  extensions:
+    Behat\TokensExtension: ~
+</code></pre>
+
+<h2>
+<a id="documentation" class="anchor" href="#documentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Documentation</h2>
+
+<p>Please refer to docs <a href="docs/index.md">here</a></p>
+
+<h2>
+<a id="testing" class="anchor" href="#testing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Testing</h2>
+
+<div class="highlight highlight-source-shell"><pre>composer update --dev
+./vendor/bin/behat</pre></div>
+
+<h2>
+<a id="contributions" class="anchor" href="#contributions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contributions</h2>
+
+<p>Feel free to provide feedback in issue queue and contributions are much welcome.</p>
+
+<h2>
+<a id="authors" class="anchor" href="#authors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors</h2>
+
+<ul>
+<li><a href="https://github.com/asgorobets">Alexei Gorobets (asgorobets)</a></li>
+</ul>
+
+<h2>
+<a id="supporting-organizations" class="anchor" href="#supporting-organizations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Supporting organizations</h2>
+
+<p>Thanks to <a href="http://www.ffwagency.com/">FFW Agency</a> for supporting this contribution.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/asgorobets/TokensExtension">Behat TokensExtension</a> is maintained by <a href="https://github.com/asgorobets">asgorobets</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
